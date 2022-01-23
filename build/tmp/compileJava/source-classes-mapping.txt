@@ -1,0 +1,14 @@
+pl/amw/gdynia/kubernetes/dao/CurrencyRateRepository.java
+ pl.amw.gdynia.kubernetes.dao.CurrencyRateRepository
+pl/amw/gdynia/kubernetes/ECB/LoadDatabase.java
+ pl.amw.gdynia.kubernetes.ECB.LoadDatabase
+pl/amw/gdynia/kubernetes/CurrencyRateApplication.java
+ pl.amw.gdynia.kubernetes.CurrencyRateApplication
+pl/amw/gdynia/kubernetes/schedule/CurrencyRateSchedule.java
+ pl.amw.gdynia.kubernetes.schedule.CurrencyRateSchedule
+pl/amw/gdynia/kubernetes/ECB/CurrencyRateFromECB.java
+ pl.amw.gdynia.kubernetes.ECB.CurrencyRateFromECB
+pl/amw/gdynia/kubernetes/controllers/CurrencyRateController.java
+ pl.amw.gdynia.kubernetes.controllers.CurrencyRateController
+pl/amw/gdynia/kubernetes/dao/entity/CurrencyRate.java
+ pl.amw.gdynia.kubernetes.dao.entity.CurrencyRate

@@ -1,0 +1,2 @@
+pl/amw/gdynia/kubernetes/CurrencyRateApplicationTests.java
+ pl.amw.gdynia.kubernetes.CurrencyRateApplicationTests
