@@ -56,9 +56,12 @@ spec:
                 key: rootpasswd
         args: ["--default-authentication-plugin","mysql_native_password"]
         volumeMounts:
-        - name: var-lib-mysql
+        - name: volume-mysql
           mountPath: /var/lib/mysql
       volumes:
-      - name: var-lib-mysql
-        emptyDir: {}
----
+      - name: volume-mysql
+        persistentVolumeClaim:
+          claimName: mypvc
+      securityContext:
+        runAsUser: 1000
+status: {}
